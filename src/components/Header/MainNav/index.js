@@ -4,20 +4,12 @@ import * as Styled from './styles';
 
 const mainNavItems = [
   {
-    title: 'About Me',
+    title: 'Login',
     slug: '/'
   },
   {
-    title: 'Resume',
-    slug: '/resume/'
-  },
-  {
-    title: 'Blog',
-    slug: '/blog/'
-  },
-  {
-    title: 'Contact Me',
-    slug: '/contact/'
+    title: 'Sign Up',
+    slug: '/'
   }
 ];
 
@@ -31,7 +23,7 @@ const MainNav = () => {
           <Styled.MainNavItem
             key={`nav-item-${index}`}
             to={item.slug}
-            activeClassName="active"
+            activeClassName=""
             whileTap={{ scale: 0.9 }}
           >
             {item.title}

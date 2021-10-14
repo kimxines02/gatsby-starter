@@ -9,7 +9,7 @@ export const colors: ObjectType = {
   white: '#ffffff',
   black: '#000000',
   // gray
-  gray100: '#F7FAFC',
+  gray100: '#E7E7E7',
   gray200: '#EDF2F7',
   gray300: '#E2E8F0',
   gray400: '#CBD5E0',
